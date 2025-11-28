@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Output files
+outputs/figures/*.png
+outputs/figures/*.jpg
+outputs/models/*
+data/processed/*
+
+# Keep directory structure
+!.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.pdf
